@@ -3,7 +3,7 @@ const statements = [
   {
     headline: "AI is the largest capital expenditure cycle in history.",
     supporting:
-      "Amazon, Alphabet, Microsoft, Meta, and Oracle spent ~$325B in combined 2025 capex — with 2026 estimates exceeding $400B. Cumulative AI data center investment is on track to exceed $2 trillion by 2030.",
+      "Amazon, Alphabet, Microsoft, Meta, and Oracle spent ~$443B in combined 2025 capex — with 2026 estimates approaching $750B. Cumulative AI data center investment is on track to exceed $2 trillion by 2030.",
   },
   {
     headline: "It touches every layer of the economy.",

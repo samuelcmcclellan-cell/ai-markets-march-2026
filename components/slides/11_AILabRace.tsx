@@ -1,8 +1,8 @@
 "use client";
 const labs = [
-  { name: "OpenAI", val: "~$300B", detail: "$11.6B ARR (Dec 2025)", color: "border-orange-500", textColor: "text-orange-400" },
-  { name: "Anthropic", val: "~$61B", detail: "$875M ARR, Series E", color: "border-amber-500", textColor: "text-amber-400" },
-  { name: "xAI", val: "~$50B", detail: "Elon Musk's AI venture", color: "border-teal-500", textColor: "text-teal-400" },
+  { name: "OpenAI", val: "~$840B", detail: "$25B ARR (Q1 2026)", color: "border-orange-500", textColor: "text-orange-400" },
+  { name: "Anthropic", val: "~$380B", detail: "$19B ARR, Series E", color: "border-amber-500", textColor: "text-amber-400" },
+  { name: "xAI", val: "~$230B", detail: "$20B round, Elon Musk's AI venture", color: "border-teal-500", textColor: "text-teal-400" },
 ];
 
 export default function AILabRace() {

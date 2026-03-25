@@ -202,7 +202,7 @@ function slide03() {
   const blocks = [
     {
       bold: "AI is the largest capital expenditure cycle in history.",
-      body: "Amazon, Alphabet, Microsoft, Meta, and Oracle have guided to ~$325B in combined 2025 capex — with 2026 estimates exceeding $400B. Cumulative AI data center investment is on track to exceed $2 trillion by 2030.",
+      body: "Amazon, Alphabet, Microsoft, Meta, and Oracle spent ~$443B in combined 2025 capex — with 2026 estimates approaching $750B. Cumulative AI data center investment is on track to exceed $2 trillion by 2030.",
     },
     {
       bold: "It touches every layer of the economy.",
@@ -210,7 +210,7 @@ function slide03() {
     },
     {
       bold: "The market is repricing everything.",
-      body: "Semiconductor stocks (SOXX) and software stocks (IGV) are diverging sharply. The same AI wave is creating winners and losers simultaneously.",
+      body: "Semiconductor stocks (SOXX) up ~13% YTD. Software stocks (IGV) down ~20% YTD. A 33-point spread — the same AI wave is creating winners and losers simultaneously.",
     },
   ];
 
@@ -421,7 +421,7 @@ function slide08() {
   addThemeTag(slide, "THE MARKET", C.gold);
   addHeadline(slide, "WHO IS BUYING ALL THESE CHIPS?");
 
-  makeBigNumber(slide, "$325B+", "Combined hyperscaler 2025 capex", 5.2, 0.2, 4.3);
+  makeBigNumber(slide, "$750B", "Combined hyperscaler 2026E capex", 5.2, 0.2, 4.3);
 
   addFullChartTitle(slide, "Hyperscaler Capital Expenditure ($ Billions)");
 
@@ -436,31 +436,31 @@ function slide08() {
       { text: "Amazon", options: { fontSize: 9, fontFace: FONT_BODY, bold: true } },
       { text: "$75B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center" } },
       { text: "$100B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center" } },
-      { text: "$100B+", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true } },
+      { text: "$200B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true } },
     ],
     [
       { text: "Alphabet", options: { fontSize: 9, fontFace: FONT_BODY, bold: true, fill: { color: "F9F9F9" } } },
       { text: "$52.5B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", fill: { color: "F9F9F9" } } },
       { text: "$75B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", fill: { color: "F9F9F9" } } },
-      { text: "$75B+", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true, fill: { color: "F9F9F9" } } },
+      { text: "$175B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true, fill: { color: "F9F9F9" } } },
     ],
     [
       { text: "Microsoft", options: { fontSize: 9, fontFace: FONT_BODY, bold: true } },
       { text: "$55B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center" } },
       { text: "$80B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center" } },
-      { text: "$80B+", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true } },
+      { text: "$120B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true } },
     ],
     [
       { text: "Meta", options: { fontSize: 9, fontFace: FONT_BODY, bold: true, fill: { color: "F9F9F9" } } },
       { text: "$37B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", fill: { color: "F9F9F9" } } },
       { text: "$60-65B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", fill: { color: "F9F9F9" } } },
-      { text: "$65B+", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true, fill: { color: "F9F9F9" } } },
+      { text: "$125B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true, fill: { color: "F9F9F9" } } },
     ],
     [
       { text: "Oracle", options: { fontSize: 9, fontFace: FONT_BODY, bold: true } },
       { text: "$12B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center" } },
       { text: "$16B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center" } },
-      { text: "$25B+", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true } },
+      { text: "$50B", options: { fontSize: 9, fontFace: FONT_BODY, align: "center", color: C.orange, bold: true } },
     ],
   ];
 
@@ -483,16 +483,16 @@ function slide08() {
 function slide09() {
   const slide = pres.addSlide();
   addThemeTag(slide, "THE MARKET", C.gold);
-  addHeadline(slide, "THE $680B SEMICONDUCTOR MARKET");
-  addSubhead(slide, "Logic + Memory = ~70% of the market — AI's center of gravity.");
+  addHeadline(slide, "THE $975B SEMICONDUCTOR MARKET");
+  addSubhead(slide, "Logic + Memory = ~70% of the market — AI's center of gravity. WSTS forecasts $975B for 2026.");
 
   const segments = [
-    { name: "Logic (GPUs, CPUs, accelerators)", value: "~$270B", pct: 40, color: C.orange },
-    { name: "Memory (DRAM + NAND + HBM)", value: "~$190B", pct: 28, color: C.gold },
-    { name: "Analog", value: "~$75B", pct: 11, color: C.green },
-    { name: "Discrete", value: "~$45B", pct: 7, color: C.teal },
-    { name: "Optoelectronics & Sensors", value: "~$60B", pct: 9, color: C.pink },
-    { name: "Equipment", value: "~$110B", pct: 16, color: C.medGray },
+    { name: "Logic (GPUs, CPUs, accelerators)", value: "~$390B", pct: 40, color: C.orange },
+    { name: "Memory (DRAM + NAND + HBM)", value: "~$290B", pct: 30, color: C.gold },
+    { name: "Analog", value: "~$95B", pct: 10, color: C.green },
+    { name: "Discrete", value: "~$50B", pct: 5, color: C.teal },
+    { name: "Optoelectronics & Sensors", value: "~$80B", pct: 8, color: C.pink },
+    { name: "Equipment", value: "~$110B", pct: 11, color: C.medGray },
   ];
 
   segments.forEach((seg, i) => {
@@ -517,12 +517,12 @@ function slide09() {
     x: 0.5, y: 4.3, w: 9.0, h: 0.3,
     fill: { color: "FFF3E0" },
   });
-  slide.addText("Logic + Memory = ~$460B (~68% of total) — AI's center of gravity.", {
+  slide.addText("Logic + Memory = ~$680B (~70% of total) — AI's center of gravity.", {
     x: 0.7, y: 4.3, w: 8.5, h: 0.3,
     fontSize: 10.5, color: C.black, bold: true, fontFace: FONT_BODY, valign: "middle", margin: 0,
   });
 
-  addSource(slide, "Sources: WSTS, SIA, Gartner, SEMI. Figures reflect 2025 estimates; 2026 total market forecast ~$720B.", 0.5, 4.65);
+  addSource(slide, "Sources: WSTS, SIA, Gartner, SEMI. 2025 actual: $796B. 2026 WSTS forecast: $975B.", 0.5, 4.65);
   addFooter(slide, 9);
 }
 
@@ -537,8 +537,8 @@ function slide10() {
 
   slide.addChart(pres.charts.BAR, [{
     name: "HBM TAM",
-    labels: ["2023", "2024", "2025E", "2026E", "2028E"],
-    values: [4, 16, 35, 55, 100],
+    labels: ["2023", "2024", "2025", "2026E", "2028E"],
+    values: [4, 16, 38, 58, 100],
   }], {
     x: 0.5, y: 1.95, w: 4.3, h: 2.3,
     barDir: "col",
@@ -559,9 +559,9 @@ function slide10() {
 
   addChartTitle(slide, "Key Metrics", 5.2);
 
-  makeSmallStat(slide, "~50%", "SK Hynix HBM share", 5.2, 2.0, 2.0);
-  makeSmallStat(slide, "~25%", "Samsung HBM share", 7.4, 2.0, 2.0);
-  makeSmallStat(slide, "~25%", "Micron HBM share", 5.2, 2.9, 2.0, C.gold);
+  makeSmallStat(slide, "57%", "SK Hynix HBM share", 5.2, 2.0, 2.0);
+  makeSmallStat(slide, "22%", "Samsung HBM share", 7.4, 2.0, 2.0);
+  makeSmallStat(slide, "21%", "Micron HBM share", 5.2, 2.9, 2.0, C.gold);
 
   slide.addText([
     { text: "Bandwidth Comparison", options: { bold: true, fontSize: 10, color: C.black, fontFace: FONT_BODY, breakLine: true } },
@@ -583,9 +583,9 @@ function slide11() {
   addSubhead(slide, "Mostly private. Revenue growing explosively but profitability uncertain.");
 
   const labs = [
-    { name: "OpenAI", val: "~$300B", detail: "$11.6B ARR (Dec 2025)", color: C.orange },
-    { name: "Anthropic", val: "~$61B", detail: "$875M ARR, Series E", color: C.gold },
-    { name: "xAI", val: "~$50B", detail: "Elon Musk's AI venture", color: C.teal },
+    { name: "OpenAI", val: "$840B", detail: "$25B ARR (Feb 2026)", color: C.orange },
+    { name: "Anthropic", val: "$380B", detail: "$19B ARR, $30B round (Feb 2026)", color: C.gold },
+    { name: "xAI", val: "$230B+", detail: "$20B round (Jan 2026)", color: C.teal },
   ];
 
   labs.forEach((lab, i) => {
@@ -684,10 +684,10 @@ function slide13() {
   });
 
   const hwWinners = [
-    { name: "Micron (MU)", val: "+62%" },
-    { name: "Samsung", val: "+57%" },
-    { name: "SK Hynix", val: "+49%" },
-    { name: "TSMC (TSM)", val: "+20%" },
+    { name: "Micron (MU)", val: "+16%" },
+    { name: "Samsung", val: "+16%" },
+    { name: "SK Hynix", val: "+12%" },
+    { name: "TSMC (TSM)", val: "+10%" },
   ];
 
   hwWinners.forEach((item, i) => {
@@ -714,12 +714,12 @@ function slide13() {
   });
 
   const swLosers = [
-    { name: "Salesforce (CRM)", val: "-30%" },
-    { name: "Adobe (ADBE)", val: "-27%" },
-    { name: "Shopify (SHOP)", val: "-26%" },
-    { name: "Intuit (INTU)", val: "-20%" },
-    { name: "Microsoft (MSFT)", val: "-17%" },
-    { name: "ServiceNow (NOW)", val: "-11%" },
+    { name: "Adobe (ADBE)", val: "-25%" },
+    { name: "Shopify (SHOP)", val: "-22%" },
+    { name: "Salesforce (CRM)", val: "-20%" },
+    { name: "Intuit (INTU)", val: "-18%" },
+    { name: "ServiceNow (NOW)", val: "-15%" },
+    { name: "Microsoft (MSFT)", val: "-12%" },
   ];
 
   swLosers.forEach((item, i) => {
@@ -1180,7 +1180,7 @@ function slide22() {
     {
       num: "01",
       title: "The capex cycle is real and financing itself.",
-      body: "$325B+ in 2025 capex. These companies have the cash flows to sustain it.",
+      body: "$750B in combined 2026E capex. These companies have the cash flows to sustain it.",
       color: C.orange,
     },
     {

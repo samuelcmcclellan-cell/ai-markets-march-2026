@@ -2,11 +2,11 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Legend, Tooltip } from "recharts";
 
 const capexData = [
-  { name: "Amazon", fy2024: 75, fy2025: 100, fy2026e: 100 },
-  { name: "Alphabet", fy2024: 52.5, fy2025: 75, fy2026e: 75 },
-  { name: "Microsoft", fy2024: 55, fy2025: 80, fy2026e: 80 },
-  { name: "Meta", fy2024: 37, fy2025: 62, fy2026e: 65 },
-  { name: "Oracle", fy2024: 12, fy2025: 16, fy2026e: 25 },
+  { name: "Amazon", fy2024: 75, fy2025: 100, fy2026e: 200 },
+  { name: "Alphabet", fy2024: 52.5, fy2025: 75, fy2026e: 175 },
+  { name: "Microsoft", fy2024: 55, fy2025: 80, fy2026e: 120 },
+  { name: "Meta", fy2024: 37, fy2025: 62, fy2026e: 125 },
+  { name: "Oracle", fy2024: 12, fy2025: 16, fy2026e: 50 },
 ];
 
 export default function HyperscalerCapex() {
@@ -20,8 +20,8 @@ export default function HyperscalerCapex() {
           Who is buying all these chips?
         </h3>
         <div className="flex items-center gap-3 mb-5">
-          <span className="text-4xl md:text-5xl font-heading font-bold text-amber-400">$325B+</span>
-          <span className="text-sm text-slate-400">Combined hyperscaler 2025 capex</span>
+          <span className="text-4xl md:text-5xl font-heading font-bold text-amber-400">$750B</span>
+          <span className="text-sm text-slate-400">Combined hyperscaler 2026E capex</span>
         </div>
         <div className="h-56 md:h-64">
           <ResponsiveContainer width="100%" height="100%">

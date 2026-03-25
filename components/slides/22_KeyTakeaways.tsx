@@ -3,7 +3,7 @@ const takeaways = [
   {
     num: "01",
     title: "The capex cycle is real and financing itself.",
-    body: "$325B+ in 2025 capex. These companies have the cash flows to sustain it.",
+    body: "$750B in combined 2026E capex. These companies have the cash flows to sustain it.",
     color: "bg-orange-500",
   },
   {

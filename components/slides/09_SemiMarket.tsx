@@ -2,12 +2,12 @@
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Cell, LabelList } from "recharts";
 
 const segments = [
-  { name: "Logic", value: 270, pct: "40%", color: "#f6693d" },
-  { name: "Memory", value: 190, pct: "28%", color: "#ffb800" },
-  { name: "Equipment", value: 110, pct: "16%", color: "#64748b" },
-  { name: "Analog", value: 75, pct: "11%", color: "#00a854" },
-  { name: "Opto/Sensors", value: 60, pct: "9%", color: "#e8478d" },
-  { name: "Discrete", value: 45, pct: "7%", color: "#008b8b" },
+  { name: "Logic", value: 350, pct: "36%", color: "#f6693d" },
+  { name: "Memory", value: 250, pct: "26%", color: "#ffb800" },
+  { name: "Equipment", value: 130, pct: "13%", color: "#64748b" },
+  { name: "Analog", value: 95, pct: "10%", color: "#00a854" },
+  { name: "Opto/Sensors", value: 85, pct: "9%", color: "#e8478d" },
+  { name: "Discrete", value: 65, pct: "7%", color: "#008b8b" },
 ];
 
 export default function SemiMarket() {
@@ -18,10 +18,10 @@ export default function SemiMarket() {
           Semiconductor Market
         </h2>
         <h3 className="text-2xl md:text-3xl font-heading font-bold text-white mb-1">
-          The ~$680B semiconductor market
+          The ~$975B semiconductor market
         </h3>
         <p className="text-sm text-slate-400 mb-5">
-          Logic + Memory = ~68% of the market — AI&apos;s center of gravity.
+          Logic + Memory = ~62% of the market — AI&apos;s center of gravity.
         </p>
         <div className="h-56 md:h-64">
           <ResponsiveContainer width="100%" height="100%">
@@ -39,11 +39,11 @@ export default function SemiMarket() {
         </div>
         <div className="bg-amber-500/10 border border-amber-500/30 rounded-lg px-4 py-2 mt-3">
           <p className="text-sm font-heading font-semibold text-amber-400">
-            Logic + Memory = ~$460B (~68% of total) — AI&apos;s center of gravity.
+            Logic + Memory = ~$600B (~62% of total) — AI&apos;s center of gravity.
           </p>
         </div>
         <p className="text-[10px] text-slate-600 mt-2">
-          Sources: WSTS, SIA, Gartner, SEMI. Figures reflect 2025 estimates; 2026 total market forecast ~$720B.
+          Sources: WSTS, SIA, Gartner, SEMI. Figures reflect 2026 estimates.
         </p>
       </div>
     </div>

@@ -4,8 +4,8 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, LabelL
 const hbmTam = [
   { year: "2023", tam: 4 },
   { year: "2024", tam: 16 },
-  { year: "2025E", tam: 35 },
-  { year: "2026E", tam: 55 },
+  { year: "2025", tam: 38 },
+  { year: "2026E", tam: 58 },
   { year: "2028E", tam: 100 },
 ];
 
@@ -42,15 +42,15 @@ export default function MemoryDeepDive() {
             <p className="text-sm font-heading font-semibold text-white">Market Share</p>
             <div className="grid grid-cols-3 gap-2">
               <div className="stat-card text-center">
-                <p className="text-2xl font-heading font-bold text-orange-400">~50%</p>
+                <p className="text-2xl font-heading font-bold text-orange-400">~57%</p>
                 <p className="text-[10px] text-slate-500 mt-1">SK Hynix</p>
               </div>
               <div className="stat-card text-center">
-                <p className="text-2xl font-heading font-bold text-amber-400">~25%</p>
+                <p className="text-2xl font-heading font-bold text-amber-400">~22%</p>
                 <p className="text-[10px] text-slate-500 mt-1">Samsung</p>
               </div>
               <div className="stat-card text-center">
-                <p className="text-2xl font-heading font-bold text-amber-400">~25%</p>
+                <p className="text-2xl font-heading font-bold text-amber-400">~21%</p>
                 <p className="text-[10px] text-slate-500 mt-1">Micron</p>
               </div>
             </div>

@@ -1,18 +1,18 @@
 "use client";
 const hwWinners = [
-  { name: "Micron (MU)", val: "+62%" },
-  { name: "Samsung", val: "+57%" },
-  { name: "SK Hynix", val: "+49%" },
-  { name: "TSMC (TSM)", val: "+20%" },
+  { name: "Micron (MU)", val: "+16%" },
+  { name: "Samsung", val: "+16%" },
+  { name: "SK Hynix", val: "+12%" },
+  { name: "TSMC (TSM)", val: "+10%" },
 ];
 
 const swLosers = [
-  { name: "Salesforce (CRM)", val: "-30%" },
-  { name: "Adobe (ADBE)", val: "-27%" },
-  { name: "Shopify (SHOP)", val: "-26%" },
-  { name: "Intuit (INTU)", val: "-20%" },
-  { name: "Microsoft (MSFT)", val: "-17%" },
-  { name: "ServiceNow (NOW)", val: "-11%" },
+  { name: "Adobe (ADBE)", val: "-25%" },
+  { name: "Shopify (SHOP)", val: "-22%" },
+  { name: "Salesforce (CRM)", val: "-20%" },
+  { name: "Intuit (INTU)", val: "-18%" },
+  { name: "ServiceNow (NOW)", val: "-15%" },
+  { name: "Microsoft (MSFT)", val: "-12%" },
 ];
 
 export default function GreatDivergence() {
