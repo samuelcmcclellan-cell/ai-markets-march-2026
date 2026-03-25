@@ -1,0 +1,11 @@
+{
+  "name": "ai-markets-march-2026",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build-deck": "node build-deck.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
